@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="upload.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload</title>
+</head>
+<body>
+    <div class="retangulo1"> 
+        <h1>Upload</h1>
+        <div class="retangulo2">
+            <div id="Arraste">
+                <img src="cloud.png" alt="cloud">
+                <!-- Alterar o parágrafo para um elemento span -->
+                <span id="uploadText">Arraste o arquivo ou</span>
+            </div>
+
+            <label for="fileInput" id="procurar">
+                <p>Procurar</p>
+            </label>
+            <input type="file" id="fileInput" style="visibility: hidden;">
+
+            <div id="formato">
+                <p>Os arquivos deverão estar em formato .xml</p>
+            </div>
+        </div> 
+        <div class="botao">
+            <h2>UPLOAD</h2>
+        </div>
+    </div> 
+
+    <script src="upload.js"></script>
+</body>
+</html>
